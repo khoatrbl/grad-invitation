@@ -2,6 +2,8 @@ import Spline from "@splinetool/react-spline";
 
 export default function Pufferfish() {
   return (
-    <Spline scene="https://prod.spline.design/Eeq22nehzEKuTWxy/scene.splinecode" />
+    <div className="md:w-full w-lg">
+      <Spline scene="https://prod.spline.design/Eeq22nehzEKuTWxy/scene.splinecode" />
+    </div>
   );
 }

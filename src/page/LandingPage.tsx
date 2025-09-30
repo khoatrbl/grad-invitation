@@ -5,7 +5,9 @@ export default function LandingPage() {
   return (
     <>
       <Header />
-      <Pufferfish />
+      <div className="flex justify-center align-middle overflow-hidden">
+        <Pufferfish />
+      </div>
     </>
   );
 }
